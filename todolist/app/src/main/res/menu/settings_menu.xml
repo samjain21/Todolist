@@ -1,0 +1,25 @@
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group0">
+        <item
+            android:title="@string/allday_reminder_time"
+            app:showAsAction="ifRoom" />
+        <item
+            android:title="@string/battery_optimization"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group
+        android:id="@+id/group1">
+        <item
+            android:title="@string/about"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:title="@string/imprint"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:title="@string/open_source_licences"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>

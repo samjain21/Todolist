@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settings">
+
+        <Preference
+            android:key="allday_reminder_time_key"
+            android:title="@string/allday_reminder_time"
+            android:icon="@drawable/ic_notifications"/>
+
+        <Preference
+            android:key="battery_optimization_key"
+            android:title="@string/battery_optimization"
+            android:icon="@drawable/ic_battery"
+            android:summary="@string/battery_optimization_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/information">
+
+        <Preference
+            android:key="about_key"
+            android:title="@string/about"
+            android:icon="@drawable/ic_person"
+
+            android:summary="@string/about_summary"/>
+
+        <Preference
+            android:key="imprint_key"
+            android:title="@string/imprint"
+            android:icon="@drawable/ic_imprint"
+            android:summary="@string/imprint_summary"/>
+
+        <Preference
+            android:key="open_source_licences_key"
+            android:title="@string/open_source_licences"
+            android:icon="@drawable/ic_licence"
+            android:summary="@string/licences_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

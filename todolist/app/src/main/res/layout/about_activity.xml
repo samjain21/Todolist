@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:id="@+id/root_developer_activity">
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:elevation="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@mipmap/ic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:text="@string/app_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/informationText"
+            android:textSize="12dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:text="@string/version" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/stevensolleder"
+            style="@style/linkedButton"
+            android:layout_marginBottom="-4dp"
+            android:text="@string/steven_solleder"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/isabellwaas"
+            style="@style/linkedButton"
+            android:layout_marginTop="-4dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/isabell_waas"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

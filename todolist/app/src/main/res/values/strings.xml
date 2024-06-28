@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">SimpleDo</string>
+    <string name="add_entry">Add</string>
+    <string name="steven_solleder" translatable="false">Steven Solleder</string>
+    <string name="isabell_waas" translatable="false">Isabell Waas</string>
+    <string name="imprint">Imprint</string>
+    <string name="change_sort_direction">Change sort direction</string>
+    <string name="change_sort_criterion">Change sort criterion</string>
+    <string name="settings">Settings</string>
+    <string name="start">Create entry</string>
+    <string name="about">About</string>
+    <string name="theme">Theme</string>
+    <string name="allday_reminder_time">Allday events reminder</string>
+    <string name="set_date">Set date</string>
+    <string name="set_time">Set time</string>
+    <string name="set_color">Set color</string>
+    <string name="set_notification">Toggle notification</string>
+    <string name="defaultColor">Default</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+    <string name="purple">Purple</string>
+    <string name="red">Red</string>
+    <string name="edit_text">Edit text</string>
+    <string name="edit_date">Edit date</string>
+    <string name="edit_time">Edit time</string>
+    <string name="edit_color">Edit color</string>
+    <string name="activate_notification">Activate notification</string>
+    <string name="deactivate_notification">Deactivate notification</string>
+    <string name="open_source_licences">Open-source licences</string>
+    <string name="version">0.1.0</string>
+    <string name="apply">Apply</string>
+    <string name="delete">Delete</string>
+    <string name="undo">Undo</string>
+    <string name="entry_deleted">Your entry has been deleted</string>
+    <string name="entry_in_past">Your entry is in the past</string>
+    <string name="cancel">Cancel</string>
+    <string name="reminders">Reminders</string>
+    <string name="reminders_description">The reminders you set for your entries</string>
+    <string name="ok">Ok</string>
+    <string name="battery_optimization">Disable battery optimization</string>
+    <string name="battery_optimization_description">"Because the operating systems of most manufacturers compulsively terminate applications that run in the background, we recommend you to exclude the application SimpleDo of this in order to prevent yourself from missing your own reminders. "</string>
+    <string name="information">Information</string>
+    <string name="open_settings">Open settings</string>
+    <string name="battery_optimization_hint">The correct setting could not be found. Please disable it manually in the settings or contact your manufacturer in order to disable this functionality.</string>
+    <string name="battery_optimization_button_hint">The following button leads you right to the corresponding settings of your device.</string>
+    <string name="battery_optimization_summary">Make sure you do not miss any reminders by allowing SimpleDo to always run in the background.</string>
+    <string name="about_summary">Some information about the current App Version and the developers.</string>
+    <string name="imprint_summary">A link to the imprint of the App.</string>
+    <string name="licences_summary">The licences of the libraries used in the code of the App.</string>
+    <string override="true" name="mtrl_picker_cancel">Delete</string>
+    <string override="true" name="mtrl_picker_confirm">Apply</string>
+    <string name="past_notification">The notification lies in the past.</string>
+</resources>

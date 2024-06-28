@@ -1,0 +1,18 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/editText"
+        android:title="@string/edit_text"
+        app:showAsAction="always" />
+    <item android:id="@+id/editDate"
+        android:title="@string/edit_date"/>
+    <item android:id="@+id/editTime"
+        android:title="@string/edit_time"
+        android:visible="false"/>
+    <item android:id="@+id/editNotifcation"
+        android:title="@string/activate_notification"
+        android:visible="false"/>
+    <item android:id="@+id/editColor"
+        android:title="@string/edit_color">
+        <menu></menu> <!-- placeholder for color_change_menu.xml -->
+    </item>
+</menu>
